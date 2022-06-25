@@ -4405,10 +4405,10 @@ minipass@^3.0.0, minipass@^3.1.1, minipass@^3.1.6:
   dependencies:
     yallist "^4.0.0"
 
-miniprogram-api-typings@3.4.6:
-  version "3.4.6"
-  resolved "https://registry.yarnpkg.com/miniprogram-api-typings/-/miniprogram-api-typings-3.4.6.tgz#324602325976a002dc99ebe0d396b1c7fc080ecf"
-  integrity sha512-1/aAma9wWzu9KS8m/h4j43UHoKS+XO61kaUDdftnlgwEyBndr0jrPJf/gUzdZQOST0pkLWmF0IMotz+j/Nh5SQ==
+miniprogram-api-typings@3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/miniprogram-api-typings/-/miniprogram-api-typings-3.5.0.tgz#7e33cf3a48f5f647c8222c3aa178b4fdf9b2d142"
+  integrity sha512-cS/uXJTMGKujwoaeEFFFKqpCf7qp3R7iuQZWagZAwhKA3Z7U/xlhOcI3i1wqN+uo4YODg3AG1j2zCe1PDa9Wtg==
 
 minizlib@^2.1.1, minizlib@^2.1.2:
   version "2.1.2"
