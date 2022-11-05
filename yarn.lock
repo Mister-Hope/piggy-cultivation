@@ -211,19 +211,19 @@
   resolved "https://registry.yarnpkg.com/@hutson/parse-repository-url/-/parse-repository-url-3.0.2.tgz#98c23c950a3d9b6c8f0daed06da6c3af06981340"
   integrity sha512-H9XAx3hc0BQHY6l+IFSWHDySypcXsvsuLhgYLUGywmJ5pswRVQJUHpOsobnLYp2ZUaUlKiKDrgWWhosOwAEM8Q==
 
-"@mr-hope/gulp-sass@3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@mr-hope/gulp-sass/-/gulp-sass-3.0.2.tgz#1e862fb2e700f98d2e9e277d2b719463bcb19249"
-  integrity sha512-D53Q2V7G/i/AsRoM8o6G+71p5uv29qEI3WGDJb13ZNkxbq1NaB9+ERdlwCn7mzzs1r4Ilmb/qLJU70GB7P8Bsg==
+"@mr-hope/gulp-sass@3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@mr-hope/gulp-sass/-/gulp-sass-3.1.1.tgz#bf8f7b0fe2d47c6ab3eb8e6781c9dda0d27fd28f"
+  integrity sha512-QfEMLR3C6etfTydy/arqb/1dJrjhuS2fWOsdYaxVWImjdhzQ7j6ej2u80DODbog7IMhlm85HN28ndBOSDqiDUQ==
   dependencies:
-    "@types/lodash" "^4.14.178"
     "@types/node" "*"
     chalk "^4.1.2"
-    lodash "^4.17.21"
     plugin-error "^1.0.1"
     replace-ext "^2.0.0"
     sass ">= 1.45.0"
-    strip-ansi "^6.0.0"
+    source-map-js "^1.0.2"
+    strip-ansi "^6.0.1"
+    vinyl "^2.2.1"
     vinyl-sourcemaps-apply "^0.2.1"
 
 "@nodelib/fs.scandir@2.1.5":
@@ -407,11 +407,6 @@
   version "7.0.11"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.11.tgz#d421b6c527a3037f7c84433fd2c4229e016863d3"
   integrity sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==
-
-"@types/lodash@^4.14.178":
-  version "4.14.181"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.181.tgz#d1d3740c379fda17ab175165ba04e2d03389385d"
-  integrity sha512-n3tyKthHJbkiWhDZs3DkhkCzt2MexYHXlX0td5iMplyfwketaOeKboEVBqzceH7juqvEg3q5oUoBFxSLu7zFag==
 
 "@types/long@^4.0.0":
   version "4.0.1"
@@ -6978,7 +6973,7 @@ vinyl-sourcemaps-apply@^0.2.1:
   dependencies:
     source-map "^0.5.1"
 
-vinyl@^2.0.0, vinyl@^2.2.0:
+vinyl@^2.0.0, vinyl@^2.2.0, vinyl@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/vinyl/-/vinyl-2.2.1.tgz#23cfb8bbab5ece3803aa2c0a1eb28af7cbba1974"
   integrity sha512-LII3bXRFBZLlezoG5FfZVcXflZgWP/4dCwKtxd5ky9+LOtM4CS3bIRQsmR1KMnMW07jpE8fqR2lcxPZ+8sJIcw==
